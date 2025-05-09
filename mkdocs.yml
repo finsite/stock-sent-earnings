@@ -1,8 +1,8 @@
 ---
-site_name: Template Python
-site_description: Documentation for the Template Python Project
+site_name: stock-sent-earnings
+site_description: Documentation for the stock-sent-earnings Python Project
 site_author: Mark Quinn
-repo_url: https://github.com/finsite/template_python
+repo_url: https://github.com/finsite/stock-sent-earnings
 theme:
   name: material
 nav:

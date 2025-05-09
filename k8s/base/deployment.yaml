@@ -1,0 +1,22 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stock-sent-earnings
+  labels:
+    app: stock-sent-earnings
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stock-sent-earnings
+  template:
+    metadata:
+      labels:
+        app: stock-sent-earnings
+    spec:
+      containers:
+        - name: stock-sent-earnings
+          image: stock-sent-earnings:latest
+          ports:
+            - containerPort: 8080
