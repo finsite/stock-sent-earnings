@@ -10,7 +10,7 @@ anyio==4.9.0
     # via httpx
 argcomplete==3.6.2
     # via commitizen
-astroid==3.3.9
+astroid==3.3.10
     # via pylint
 babel==2.17.0
     # via mkdocs-material
@@ -20,9 +20,9 @@ bandit==1.8.3
     # via -r requirements-dev.in
 black==25.1.0
     # via -r requirements-dev.in
-boto3==1.38.13
+boto3==1.38.15
     # via -r D:\git\stock-sent-earnings\requirements.in
-botocore==1.38.13
+botocore==1.38.15
     # via
     #   boto3
     #   s3transfer
@@ -43,7 +43,7 @@ charset-normalizer==3.4.2
     # via
     #   commitizen
     #   requests
-click==8.1.8
+click==8.2.0
     # via
     #   black
     #   bump-my-version
@@ -61,7 +61,7 @@ colorama==0.4.6
     #   pylint
     #   pytest
     #   radon
-commitizen==4.6.3
+commitizen==4.7.0
     # via -r requirements-dev.in
 contourpy==1.3.2
     # via matplotlib
@@ -85,7 +85,7 @@ flake8==7.2.0
     #   flake8-docstrings
 flake8-docstrings==1.7.0
     # via -r requirements-dev.in
-fonttools==4.57.0
+fonttools==4.58.0
     # via matplotlib
 ghp-import==2.1.0
     # via mkdocs
@@ -163,7 +163,7 @@ mkdocs==1.6.1
     #   mkdocs-material
 mkdocs-get-deps==0.2.0
     # via mkdocs
-mkdocs-material==9.6.12
+mkdocs-material==9.6.14
     # via -r requirements-dev.in
 mkdocs-material-extensions==1.3.1
     # via mkdocs-material
@@ -294,7 +294,7 @@ pyyaml==6.0.2
     #   pymdown-extensions
     #   pyyaml-env-tag
     #   xenon
-pyyaml-env-tag==1.0
+pyyaml-env-tag==1.1
     # via mkdocs
 questionary==2.1.0
     # via

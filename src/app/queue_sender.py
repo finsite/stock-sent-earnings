@@ -48,6 +48,7 @@ def publish_to_queue(payload: list[dict]) -> None:
       payload: list[dict]:
 
     Returns:
+
     """
     for message in payload:
         if QUEUE_TYPE == "rabbitmq":
@@ -67,6 +68,7 @@ def _send_to_rabbitmq(data: dict) -> None:
       data: dict:
 
     Returns:
+
     """
     try:
         credentials = pika.PlainCredentials(RABBITMQ_USER, RABBITMQ_PASSWORD)
@@ -99,6 +101,7 @@ def _send_to_sqs(data: dict) -> None:
       data: dict:
 
     Returns:
+
     """
     if not sqs_client or not SQS_QUEUE_URL:
         logger.error("SQS client is not initialized or missing SQS_QUEUE_URL")

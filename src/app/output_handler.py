@@ -22,6 +22,7 @@ def send_to_output(data: dict[str, Any]) -> None:
 
     Args:
         data (dict[str, Any]): The processed sentiment result.
+
     """
     try:
         formatted_output: str = json.dumps(data, indent=4)
