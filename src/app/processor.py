@@ -114,7 +114,7 @@
 #             "engine": "vader",
 #         }
 import logging
-from typing import Literal, Optional, TypedDict
+from typing import Literal, TypedDict
 
 import torch
 import torch.nn.functional as F
@@ -166,10 +166,12 @@ def analyze_sentiment(
     """Analyzes sentiment using FinBERT (preferred) or VADER (fallback).
 
     Args:
+    ----
         text: The input text for analysis.
         backend: 'finbert', 'vader', or 'auto' (default).
 
     Returns:
+    -------
         A SentimentResult dictionary with label, confidence, probabilities, and backend.
 
     """
