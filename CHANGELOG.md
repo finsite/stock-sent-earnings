@@ -7,6 +7,13 @@
 - Initial project structure cloned from template_python
 - Custom configuration and module setup for `stock-sent-earnings`
 
+## v0.1.4 (2025-06-03)
+
+### Fix
+
+- **deps**: recompile requirements-dev.txt and resolve conflicts
+- **deps**: standardize termcolor to 2.5.0
+
 ## v0.1.3 (2025-06-03)
 
 ### Fix
