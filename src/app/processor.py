@@ -178,20 +178,13 @@ def analyze_sentiment(
     :param backend: Literal["finbert":
     :param text: str:
     :param backend: Literal["finbert":
-    :param text: 
-    :type text: str :
-    :param backend: 
-    :type backend: Literal["finbert" :
-    :param "vader": 
-    :param "auto"] | None: (Default value = "auto")
-    :param text: 
-    :type text: str :
-    :param backend: 
-    :type backend: Literal["finbert" :
+    :param text: type text: str :
+    :param backend: type backend: Literal["finbert" :
     :param text: str: 
     :param backend: Literal["finbert": 
+    :param "vader": 
+    :param "auto"] | None:  (Default value = "auto")
 
-    
     """
     if not text or not text.strip():
         return {
