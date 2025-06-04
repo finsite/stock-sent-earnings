@@ -131,6 +131,7 @@ logger = logging.getLogger(__name__)
 
 class SentimentResult(TypedDict):
     """ """
+
     original_text: str
     sentiment: str
     confidence: float | None
@@ -175,6 +176,8 @@ def analyze_sentiment(
     -------
         A SentimentResult dictionary with label, confidence, probabilities, and backend.
 
+    :param text: str:
+    :param backend: Literal["finbert":
     :param text: str:
     :param backend: Literal["finbert":
     :param text: str: 
