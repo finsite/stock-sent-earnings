@@ -130,6 +130,7 @@ logger = logging.getLogger(__name__)
 
 
 class SentimentResult(TypedDict):
+    """ """
     original_text: str
     sentiment: str
     confidence: float | None
@@ -164,16 +165,22 @@ def analyze_sentiment(
     text: str, backend: Literal["finbert", "vader", "auto"] | None = "auto"
 ) -> SentimentResult:
     """Analyzes sentiment using FinBERT (preferred) or VADER (fallback).
-
+    
     Args:
     ----
         text: The input text for analysis.
         backend: 'finbert', 'vader', or 'auto' (default).
-
+    
     Returns:
     -------
         A SentimentResult dictionary with label, confidence, probabilities, and backend.
 
+    :param text: str: 
+    :param backend: Literal["finbert": 
+    :param "vader": 
+    :param "auto"] | None:  (Default value = "auto")
+
+    
     """
     if not text or not text.strip():
         return {
