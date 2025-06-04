@@ -166,43 +166,32 @@ def analyze_sentiment(
     text: str, backend: Literal["finbert", "vader", "auto"] | None = "auto"
 ) -> SentimentResult:
     """Analyzes sentiment using FinBERT (preferred) or VADER (fallback).
-
+    
     Args:
     ----
         text: The input text for analysis.
         backend: 'finbert', 'vader', or 'auto' (default).
 
-    Parameters
-    ----------
-    text :
-        str:
-    backend :
-        Literal["finbert":
-    text :
-        str:
-    backend :
-        Literal["finbert":
-    text :
-        str:
-    backend :
-        Literal["finbert":
-    text : str :
+    :param text: str:
+    :param backend: Literal["finbert":
+    :param text: str:
+    :param backend: Literal["finbert":
+    :param text: str:
+    :param backend: Literal["finbert":
+    :param text: 
+    :type text: str :
+    :param backend: 
+    :type backend: Literal["finbert" :
+    :param "vader": 
+    :param "auto"] | None: (Default value = "auto")
+    :param text: 
+    :type text: str :
+    :param backend: 
+    :type backend: Literal["finbert" :
+    :param text: str: 
+    :param backend: Literal["finbert": 
 
-    backend : Literal["finbert" :
-
-    "vader" :
-
-    "auto"] | None :
-        (Default value = "auto")
-    text: str :
-
-    backend: Literal["finbert" :
-
-
-    Returns
-    -------
-
-
+    
     """
     if not text or not text.strip():
         return {

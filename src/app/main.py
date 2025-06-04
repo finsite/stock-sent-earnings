@@ -20,17 +20,12 @@ logger = setup_logger(__name__)
 def main() -> None:
     """Starts the Earnings Sentiment Analysis Service by consuming messages
     and analyzing sentiment around earnings-related events.
-
+    
     This service listens to messages from a queue (RabbitMQ or SQS),
     applies sentiment analysis, and publishes the results to an output system.
 
-    Parameters
-    ----------
 
-    Returns
-    -------
-
-
+    
     """
     logger.info("Starting Earnings Sentiment Analysis Service...")
     consume_messages()
