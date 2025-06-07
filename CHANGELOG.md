@@ -1,8 +1,8 @@
-## Unreleased
+## v0.2.2 (2025-06-07)
 
 ### Fix
 
-- **deps**: recompile requirements to resolve dependency conflicts
+- **files**: verify pyproject.toml has all required fields
 
 ## v0.2.1 (2025-06-05)
 
