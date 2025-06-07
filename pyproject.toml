@@ -119,6 +119,7 @@ version_files = [
   "src/app/__init__.py"
 ]
 
+
 [tool.commitizen.customize]
 info.title = "Conventional Commits"
 info.description = "Standardized commit format across stock-* repos"

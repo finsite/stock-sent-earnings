@@ -1,11 +1,8 @@
-# Changelog
+## Unreleased
 
-## [0.0.1] - 2025-05-08
+### Fix
 
-### Added
-
-- Initial project structure cloned from template_python
-- Custom configuration and module setup for `stock-sent-earnings`
+- **deps**: recompile requirements to resolve dependency conflicts
 
 ## v0.2.1 (2025-06-05)
 
@@ -38,15 +35,11 @@
 
 ## v0.1.2 (2025-06-03)
 
-### Fix
-
-- **files**: Cleanup redundant files and standardize
-
 ## v0.1.1 (2025-05-23)
 
 ### Fix
 
-- **poller**: integrate updates
+- **files**: Cleanup redundant files and standardize
 
 ## v0.1.0 (2025-05-23)
 
@@ -54,28 +47,29 @@
 
 - **versioning**: enforce version consistency across pyproject.toml, __init__.py, and changelog
 
-## v0.0.4 (2025-05-14)
-
 ### Fix
 
-- **pollers**: Verifying core functionality
+- **poller**: integrate updates
+
+## v0.0.4 (2025-05-14)
 
 ## v0.0.3 (2025-05-12)
 
 ### Fix
 
-- **pollers**: verifying imports work
+- **pollers**: Verifying core functionality
 
 ## v0.0.2 (2025-05-10)
 
 ### Fix
 
-- **pollers**: Initial repository population of pollers
+- **pollers**: verifying imports work
 
 ## v0.0.1 (2025-05-09)
 
 ### Fix
 
+- **pollers**: Initial repository population of pollers
 - **docs**: initial repos setup
 
 ## v0.0.0 (2025-05-09)
