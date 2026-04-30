@@ -311,7 +311,7 @@ radon==6.0.1
     # via xenon
 readme-renderer==44.0
     # via twine
-requests==2.32.4
+requests==2.33.0
     # via
     #   -r D:\git\stock-sent-earnings\requirements.in
     #   -r requirements-dev.in
